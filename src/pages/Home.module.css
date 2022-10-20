@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+.background_image__container {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.background_gradient {
+    width: 150%;
+    height: 50rem;
+    position: absolute;
+    z-index: -1;
+    display: block;
+    background-image: linear-gradient(to top right, #afafaf 50%, #e8e8e8);
+}
+
+.background_image {
+    margin-top: -3rem;
+    display: block;
+    width: 1200px;
+    height: 800px;
+    aspect-ratio: auto 1200 / 800;
+}
+
+.hero_section_content {
+    position: absolute;
+    top: 6rem;
+    left: 6rem;
+}
+
+.hero_section_content h1 {
+    font-family: 'Droid Arabic Kufi', serif;
+    font-size: 2.5rem;
+}
+.hero_section_content h2 {
+    font-family: 'Droid Arabic Kufi', serif;
+    font-size: 2rem;
+    color: #0168ed;
+    margin-left: 6.5rem;
+    margin-top: -2rem;
+}
+
+.hero_header {
+    display: block;
+    margin-bottom: 4rem;
+    padding: 1.5rem;
+}
+
+.foreground_image_container {
+    position: absolute;
+    overflow: hidden;
+    width: 72%;
+    height: 705px;
+    top: 4rem;
+    right: 0rem;
+}
+
+
+.foreground_image {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 705px;
+    top: 4rem;
+    right: -6.5rem;
+}

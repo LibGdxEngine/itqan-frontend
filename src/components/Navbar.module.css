@@ -1,0 +1,13 @@
+.navItem {
+    margin-top: 10px;
+}
+
+
+.navmenu {
+    display: inline-block;
+    /*margin: 20px;*/
+    text-align: right;
+    width: calc(100% - 120px);
+    /*vertical-align: middle;*/
+    /*horiz-align: right;*/
+}
